@@ -16,7 +16,7 @@
         </a>
         
         <!-- Search Form -->
-        <form action="/" autocomplete="off" class="form-horizontal mb-5" method="post" accept-charset="utf-8">
+        <form action="/" autocomplete="off" class="form-horizontal mb-3" method="post" accept-charset="utf-8">
             <div class="input-group">
                 <input name="name" class="form-control" type="text" placeholder="Search for a company" id="companyName" aria-label="Search for a company">
                 <span class="input-group-btn">
@@ -30,7 +30,7 @@
         
         <!-- Companies Table -->
         <table class="table table-bordered table-striped">
-            <thead class="text-center">
+            <thead class="table-primary text-center">
                 <tr>
                     {% for column in columns %}
                     <th scope="col">{{ column }}</th>

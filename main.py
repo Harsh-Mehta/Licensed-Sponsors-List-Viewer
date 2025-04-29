@@ -29,6 +29,3 @@ def home(request: Request, name: Annotated[str, Form()] = None):
         request=request,
         context={"count": count, "columns": columns, "rows": data},
     )
-
-
-

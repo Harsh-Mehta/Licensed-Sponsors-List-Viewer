@@ -6,7 +6,7 @@ This application helps you to search whether a company is licensed to sponsor wo
 
 ## Usage
 
-1. (Optional) Create a virtual environment and activate it
+1. (Optional) Create a virtual environment and activate it.
 2. Install all the dependencies using the following command:
     ```bash
     pip install -r requirements.txt
