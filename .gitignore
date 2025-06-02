@@ -178,3 +178,5 @@ cython_debug/
 
 # Application data files
 data/*
+
+# Miscellaneous
